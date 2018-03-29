@@ -7,7 +7,7 @@ public class cricketSystem {
 	private Overr[] overs;
 	
 	
-	public cricketSystem (String t1, String t2, int o) {
+	public cricketSystem(String t1, String t2, int o) {
 		team1 = t1;
 		team2 = t2;
 		totalOvers = o;
@@ -17,7 +17,7 @@ public class cricketSystem {
 		}
 	}
 	
-	public int getOvers() {
+	public int getTotalOvers() {
 		return totalOvers;
 	}
 	
